@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(to right, #30689a, #161919); */
+    background-image: url(https://myradar.com/static/background-a089d87ba11e1a4c45a8efa960b86092.jpg);
+    color: white;
+    text-align: center;
+    margin-top: 210px;
+}
+
+.container {
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search input {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.search button {
+    padding: 10px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background: #444;
+}
+
+.my {
+    margin-top: 20px;
+}
+
+#weatherResult {
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.393);
+    padding: 15px;
+    border-radius: 10px;
+}
